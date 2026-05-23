@@ -14,6 +14,9 @@ extra_css:
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - toc:
       permalink: true
 
@@ -22,6 +25,7 @@ watch:
   - mkdocs.yml
 
 plugins:
+  - search
   - awesome-pages
   - table-reader:
       enabled: true
